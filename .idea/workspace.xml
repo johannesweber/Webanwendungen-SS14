@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="anmeldung.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/anmeldung.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="32" selection-start="575" selection-end="575" vertical-scroll-proportion="23.75" vertical-offset="810" max-vertical-offset="1545">
+            <state line="2" column="28" selection-start="35" selection-end="35" vertical-scroll-proportion="0.045941807" vertical-offset="0" max-vertical-offset="653">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="anmeldung.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php/anmeldung.php">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="13" selection-start="407" selection-end="407" vertical-scroll-proportion="0.6202144" vertical-offset="0" max-vertical-offset="653">
+            <state line="80" column="68" selection-start="3100" selection-end="3100" vertical-scroll-proportion="-16.25" vertical-offset="810" max-vertical-offset="1545">
               <folding />
             </state>
           </provider>
@@ -165,6 +165,7 @@
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -256,13 +257,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="32" selection-start="575" selection-end="575" vertical-scroll-proportion="23.75" vertical-offset="810" max-vertical-offset="1545">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="46" selection-start="2080" selection-end="2080" vertical-scroll-proportion="0.42097488" vertical-offset="900" max-vertical-offset="1605">
@@ -270,9 +264,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="68" selection-start="3100" selection-end="3100" vertical-scroll-proportion="-16.25" vertical-offset="810" max-vertical-offset="1545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/php/anmeldung.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="407" selection-end="407" vertical-scroll-proportion="0.6202144" vertical-offset="0" max-vertical-offset="653">
+        <state line="2" column="28" selection-start="35" selection-end="35" vertical-scroll-proportion="0.045941807" vertical-offset="0" max-vertical-offset="653">
           <folding />
         </state>
       </provider>

@@ -1,30 +1,33 @@
 <?php
 
-$cebit = fopen("../txt/cebit.txt", "r+");
-
 $vorname = $_GET["vorname"];
-echo $vorname;
 
 $nachname = $_GET["name"];
-echo $nachname;
 
 $email = $_GET["email"];
-echo $email;
 
 $matrikelnr = $_GET["matrikelnr"];
-echo $matrikelnr;
 
 $handy = $_GET["handy"];
-echo $handy;
 
 $studiengang = $_GET["studiengang"];
-echo $studiengang;
 
-$messe = $_GET["messe"];
-echo $messe;
+if($_GET["messe"] == "CeBIT"){
+    $cebit = fopen("../txt/cebit.txt", "a+");
+    fwrite($cebit, $vorname." ".$nachname.", ".$matrikelnr.", ".$email.", ".$handy.", ".$studiengang);
+    fclose($cebit);
+}
 
-fwrite($cebit, $vorname);
+if($_GET["messe"] == "ConhIT"){
+    $conhit = fopen("../txt/conhit.txt", "a+");
+    fwrite($conhit, $vorname." ".$nachname.", ".$matrikelnr.", ".$email.", ".$handy.", ".$studiengang);
+    fclose($conhit);
+}
 
-fclose($cebit);
+if($_GET["messe"] == "WebTechCon"){
+    $webtechcon = fopen("../txt/webtechcon.txt", "a+");
+    fwrite($webtechcon, $vorname." ".$nachname.", ".$matrikelnr.", ".$email.", ".$handy.", ".$studiengang);
+    fclose($webtechcon);
+}
 
 ?>
