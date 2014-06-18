@@ -1,0 +1,29 @@
+#anmeldung {
+    font-size: 20px;
+}
+
+#anmeldungtext {
+    font-size: 12px;
+    text-align: center;
+}
+
+label {
+    font-size: 12px;
+}
+
+input {
+    font-size: 12px;
+}
+
+#formulartabelle {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#abschicken {
+    width: 100%;
+}
+
+.fehler {
+    border-color: red;
+}

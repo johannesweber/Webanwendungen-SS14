@@ -1,0 +1,64 @@
+#tabs {
+    width: 624px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.geklickt_unten {
+    background-color: #00a3e6;
+    color: white;
+}
+
+.style {
+    clear: both;
+}
+
+.tab_unten {
+    float: left;
+    border-style: solid;
+    border-width: 1px;;
+    border-color: #000000;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 196px;
+    display: none;
+}
+
+.tab_oben {
+    float: left;
+    width: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.tabelle {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 624px;
+    text-align: center;
+    display: none;
+}
+
+.tabelle td {
+    padding: 10px;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.tabelle th {
+    color: #3e48ce;
+    padding: 10px;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+
+

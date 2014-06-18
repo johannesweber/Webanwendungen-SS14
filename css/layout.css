@@ -1,0 +1,54 @@
+* {
+    font-weight: bold;
+    font-family: Arial Black,serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(153,217,234);
+    margin: 0 auto;
+}
+
+#ueberschrift {
+    font-size: 22px;
+}
+
+#kopfzeile {
+    padding: 3px;
+    height: 80px;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+#links {
+    float: left;
+    padding: 15px;
+    width: 20%;
+    height: 100%;
+    border-right: 2px solid black;
+}
+
+
+#mitte {
+    float: left;
+    width: 77%;
+    padding-top: 15px;
+}
+
+#unserlogo {
+    float: right;
+    height: 100%;
+}
+
+a {
+    font-size: 16px;
+}
+
+#messeinformationen {
+    font-size: 14px;
+}
+
+#messetext {
+    font-size: 12px;
+}

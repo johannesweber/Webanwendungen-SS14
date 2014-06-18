@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Anmeldeformular für Messefahrten</title>
+
+    <script type="text/javascript" src="javascript/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="javascript/index.js"></script>
+
+    <link rel="stylesheet"
+          type="text/css"
+          href="css/layout.css"/>
+    <link rel="stylesheet"
+          type="text/css"
+          href="css/index.css"/>
+
+</head>
+
+<body>
+
+<div id="kopfzeile">
+
+    <span id="anmeldung">Anmeldung</span>
+
+    <img src="bilder/DragonlordsGmbH_ohneText.gif" alt="logo" id="unserlogo"/>
+
+</div>
+
+<div id="links">
+    <div id="messeinformationen">Messeinformationen</div>
+    <p id="messetext">Bitte auf eine Messe eurer Wahl klicken<br>um mehr Informationen zu erhalten:</p>
+    <a href="cebit.html">CeBIT</a><br>
+    <a href="webtechcon.html">WebTechCon</a><br>
+    <a href="conhit.html">ConhIT</a><br>
+    <p>
+    <a href="index.html">Anmeldung</a><br/>
+    <a href="detail.html">Details zur Anmeldung</a>
+</div>
+
+<div id="mitte">
+    <p id="anmeldungtext">Hier könnt ihr euch für eine Messe eurer Wahl anmelden:</p>
+
+    <form id="formular" action = "php/anmeldung.php" method="GET" onsubmit="return pruefen('formular')">
+        <table id="formulartabelle">
+            <tr>
+                <td><label for="vorname" id="vornamelabel">Vorname</label></td>
+                <td><input type="text" id ="vorname" size = "30" name = "vorname"></td>
+            </tr>
+            <tr>
+                <td><label for="name" id="namelabel">Name</label></td>
+                <td><input type="text" id="name" size = "30" name = "name"></td>
+            </tr>
+            <tr>
+                <td><label for="email" id="emaillabel">E-Mail</label></td>
+                <td><input type="text" id = "email" size = "30" name = "email"></td>
+            </tr>
+            <tr>
+                <td><label for="matrikelnr" id="matrikelnrlabel">Matrikelnummer</label></td>
+                <td><input type="text" id="matrikelnr" size = "30" name="matrikelnr"></td>
+            </tr>
+            <tr>
+                <td><label for="handy" id ="handylabel">Hanynummer</label></td>
+                <td><input type="text" id="handy" size = "30" name = "handy"></td>
+            </tr>
+            <tr>
+                <td><label for="studiengang" id="studienganglabel">Studiengang</label></td>
+                <td>
+                    <select name = "studiengang" id="studiengang" size ="1">
+                        <option value = "UIB">UIB</option>
+                        <option value = "IMB">IMB</option>
+                        <option value = "IB" selected = "selected">IB</option>
+                    </select><p>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="messe" id="messelabel">Messe</label></td>
+                <td>
+                    <label>
+                        <input type = "radio" name="messe" value ="CeBIT" id="messe" checked="checked"/>
+                    </label>CeBIT<br>
+                    <label>
+                        <input type="radio" name="messe" value="ConhIT"/>
+                    </label>ConhIT<br>
+                    <label>
+                        <input type="radio" name="messe" value="WebTechCon"/>
+                    </label>WebTechCon
+                </td>
+            </tr>
+            <tr>
+                <td><input type ="submit" name ="abschicken" id="abschicken" value = "Daten abschicken"/></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
