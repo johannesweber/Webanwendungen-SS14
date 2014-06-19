@@ -189,16 +189,19 @@ function webtechconTabelleErstellen() {
 
 function sendRequest(tabelleId) {
     var xmlhttp=new XMLHttpRequest();
+    xmlhttp.open("GET","http://192.168.178.56/~Johannes/messeanmeldung/txt/kosten.txt");
     xmlhttp.onreadystatechange=function() {
         //Wenn der Request ankam und ok (200) war dann tue folgendes:
-        if (xmlhttp.readyState==4 &amp;&amp; xmlhttp.status==200) {
+        if (xmlhttp.readyState==4 && xmlhttp.status==200) {
             //der gesendete ResponseText vom Server wird in ein JSON File geparst
             var jsonObject = JSON.parse(xmlhttp.responseText);
             //Hier kann nun normal wie bisher bekannt mit dem JSON-Objekt umgegangen werden.
-            jsonObjektEinfuegen(tabelleId, jsonObject);
+           for (var i in jsonObject){
+               jsonObjektEinfuegen(tabelleId,jsonObject[i]);
+           }
+
         }
     };
     //Hier wird angegeben welche HTTP-Methode und an welche PHP-Datei der Request gesendet wird
-    xmlhttp.open("GET","../txt/kosten.txt");
     xmlhttp.send();
 }
