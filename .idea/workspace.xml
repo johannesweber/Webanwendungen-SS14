@@ -26,17 +26,19 @@
       <file leaf-file-name="detail.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javascript/detail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="201" column="44" selection-start="6921" selection-end="6921" vertical-scroll-proportion="0.86445785" vertical-offset="2441" max-vertical-offset="3135">
+            <state line="102" column="5" selection-start="3121" selection-end="3121" vertical-scroll-proportion="-0.11295181" vertical-offset="1605" max-vertical-offset="2865">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="XMLHttpRequest.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XMLHttpRequest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="103" selection-start="3741" selection-end="3741" vertical-scroll-proportion="-26.958334" vertical-offset="733" max-vertical-offset="1560">
-              <folding />
+            <state line="13" column="71" selection-start="773" selection-end="773" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="555">
+              <folding>
+                <element signature="n#style#0;n#span#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,8 +69,9 @@
         <option value="$PROJECT_DIR$/json/teilnehmerwebtechcon.json" />
         <option value="$PROJECT_DIR$/json/teilnehmercebit.json" />
         <option value="$PROJECT_DIR$/php/getDetails.php" />
-        <option value="$PROJECT_DIR$/XMLHttpRequest.html" />
+        <option value="$PROJECT_DIR$/txt/kosten.txt" />
         <option value="$PROJECT_DIR$/javascript/detail.js" />
+        <option value="$PROJECT_DIR$/XMLHttpRequest.html" />
       </list>
     </option>
   </component>
@@ -126,6 +129,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -216,7 +220,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,6 +233,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="SearchEverywhereHistory" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -316,6 +320,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/javascript/detail.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="201" column="44" selection-start="6921" selection-end="6921" vertical-scroll-proportion="0.0" vertical-offset="2441" max-vertical-offset="3135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="103" selection-start="3741" selection-end="3741" vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="1560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/detail.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="293" column="60" selection-start="9119" selection-end="9119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5085">
           <folding />
         </state>
@@ -339,9 +357,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/txt/cebit.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/layout.css">
@@ -376,44 +392,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/txt/conhit.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/txt/cebit.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/json/teilnehmerconhit.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="51" selection-start="414" selection-end="414" vertical-scroll-proportion="0.34456354" vertical-offset="0" max-vertical-offset="653">
-          <folding />
-        </state>
+        <state line="15" column="51" selection-start="414" selection-end="414" vertical-scroll-proportion="0.34456354" vertical-offset="0" max-vertical-offset="653" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/json/teilnehmerwebtechcon.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="25" selection-start="166" selection-end="166" vertical-scroll-proportion="0.114854515" vertical-offset="0" max-vertical-offset="653">
-          <folding />
-        </state>
+        <state line="5" column="25" selection-start="166" selection-end="166" vertical-scroll-proportion="0.114854515" vertical-offset="0" max-vertical-offset="653" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/json/teilnehmercebit.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="50" selection-start="659" selection-end="659" vertical-scroll-proportion="0.6891271" vertical-offset="0" max-vertical-offset="653">
-          <folding />
-        </state>
+        <state line="30" column="50" selection-start="659" selection-end="659" vertical-scroll-proportion="0.6891271" vertical-offset="0" max-vertical-offset="653" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/anmeldung.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="28" selection-start="296" selection-end="296" vertical-scroll-proportion="0.375" vertical-offset="0" max-vertical-offset="640">
-          <folding />
-        </state>
+        <state line="16" column="28" selection-start="296" selection-end="296" vertical-scroll-proportion="0.375" vertical-offset="0" max-vertical-offset="640" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/detail.html">
@@ -425,7 +429,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/getDetails.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="42" selection-start="49" selection-end="49" vertical-scroll-proportion="0.045941807" vertical-offset="0" max-vertical-offset="653">
+        <state line="2" column="42" selection-start="49" selection-end="49" vertical-scroll-proportion="0.045941807" vertical-offset="0" max-vertical-offset="653" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="103" selection-start="3741" selection-end="3741" vertical-scroll-proportion="0.72434914" vertical-offset="907" max-vertical-offset="1560">
           <folding />
         </state>
       </provider>
@@ -439,30 +448,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/txt/kosten.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XMLHttpRequest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="78" selection-start="183" selection-end="183" vertical-scroll-proportion="0.06891271" vertical-offset="0" max-vertical-offset="653">
+        <state line="13" column="71" selection-start="773" selection-end="773" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="555">
           <folding>
             <element signature="n#style#0;n#span#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="103" selection-start="3741" selection-end="3741" vertical-scroll-proportion="-26.958334" vertical-offset="733" max-vertical-offset="1560">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/detail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="201" column="44" selection-start="6921" selection-end="6921" vertical-scroll-proportion="0.86445785" vertical-offset="2441" max-vertical-offset="3135">
+        <state line="102" column="5" selection-start="3121" selection-end="3121" vertical-scroll-proportion="-0.11295181" vertical-offset="1605" max-vertical-offset="2865">
           <folding />
         </state>
       </provider>
