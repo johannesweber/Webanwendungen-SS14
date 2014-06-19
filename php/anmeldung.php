@@ -14,23 +14,20 @@ $studiengang = $_GET["studiengang"];
 
 if($_GET["messe"] == "CeBIT"){
     $cebit = fopen("../txt/cebit.txt", "a+");
-    fwrite($cebit, $vorname." ".$nachname.", ".$matrikelnr.", ".$email.", ".$handy.", ".$studiengang." \r\n");
+    fwrite($cebit, $vorname." ".$nachname.", ".$matrikelnr.", ".$email.", ".$handy.", ".$studiengang);
     fclose($cebit);
 }
 
 if($_GET["messe"] == "ConhIT"){
     $conhit = fopen("../txt/conhit.txt", "a+");
-    fwrite($conhit, $vorname." ".$nachname.", ".$matrikelnr.", ".$email.", ".$handy.", ".$studiengang." \r\n");
+    fwrite($conhit, $vorname." ".$nachname.", ".$matrikelnr.", ".$email.", ".$handy.", ".$studiengang);
     fclose($conhit);
 }
 
 if($_GET["messe"] == "WebTechCon"){
     $webtechcon = fopen("../txt/webtechcon.txt", "a+");
-    fwrite($webtechcon, $vorname." ".$nachname.", ".$matrikelnr.", ".$email.", ".$handy.", ".$studiengang." \r\n");
+    fwrite($webtechcon, $vorname." ".$nachname.", ".$matrikelnr.", ".$email.", ".$handy.", ".$studiengang);
     fclose($webtechcon);
 }
-
-header("Location: http://192.168.178.56/~Johannes/messeanmeldung/");
-exit;
 
 ?>
