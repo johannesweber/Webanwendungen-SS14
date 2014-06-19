@@ -189,7 +189,6 @@ function webtechconTabelleErstellen() {
 
 function sendRequest(tabelleId) {
     var xmlhttp=new XMLHttpRequest();
-    xmlhttp.open("GET","http://192.168.178.56/~Johannes/messeanmeldung/txt/kosten.txt");
     xmlhttp.onreadystatechange=function() {
         //Wenn der Request ankam und ok (200) war dann tue folgendes:
         if (xmlhttp.readyState==4 && xmlhttp.status==200) {
@@ -203,5 +202,6 @@ function sendRequest(tabelleId) {
         }
     };
     //Hier wird angegeben welche HTTP-Methode und an welche PHP-Datei der Request gesendet wird
+    xmlhttp.open("GET","http://192.168.178.56/~Johannes/messeanmeldung/php/getDetails.php");
     xmlhttp.send();
 }
