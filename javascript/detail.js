@@ -32,9 +32,16 @@ function klick(id) {
     var klasse = document.getElementsByClassName(nameklasse);
     var geklickt = document.getElementById(id);
     for (var i = 0; i < klasse.length; i++){
-        klasse[i].classList.remove("geklickt");
+        klasse[i].classList.remove("geklickt_oben");
+        klasse[i].classList.remove("geklickt_unten");
+
     }
-    geklickt.classList.add('geklickt');
+    if(nameklasse =="tab_oben") {
+        geklickt.classList.add('geklickt_oben');
+    }
+    if(nameklasse =="tab_unten"){
+        geklickt.classList.add('geklickt_unten');
+    }
 }
 
 /**

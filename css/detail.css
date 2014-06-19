@@ -4,9 +4,13 @@
     margin-bottom: 50px;
 }
 
-.geklickt_unten {
-    background-color: #00a3e6;
+.geklickt_oben {
+    background-color: #3f47cc;
     color: white;
+}
+
+.geklickt_unten {
+    background-color: #01a2ea;
 }
 
 .style {
