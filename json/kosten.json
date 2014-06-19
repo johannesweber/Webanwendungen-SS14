@@ -1,0 +1,5 @@
+[
+    { "name": "WebTechCon", "kosten": "300"},
+    { "name": "CeBIT", "kosten": "15"},
+    { "name": "ConhIT", "kosten": "50"}
+]
