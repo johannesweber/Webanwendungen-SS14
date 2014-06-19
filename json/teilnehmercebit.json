@@ -1,0 +1,31 @@
+var teilnehmercebit1 = {
+name: "Ent",
+vorname: "Thilo",
+studiengang: "IB",
+email: "t.ent@gmail.de"
+};
+jsonObjektEinfuegen(tableTag.id,teilnehmercebit1);
+
+var teilnehmercebit2 = {
+name: "Kraus",
+vorname: "Martina",
+studiengang: "IB",
+email: "m.kraus@hs-mannheim.de"
+};
+jsonObjektEinfuegen(tableTag.id,teilnehmercebit2);
+
+var teilnehmercebit3 = {
+name: "Smits",
+vorname: "Thomas",
+studiengang: "UIB",
+email: "t.smits@hs-mannheim.de"
+};
+jsonObjektEinfuegen(tableTag.id,teilnehmercebit3);
+
+var teilnehmercebit4 = {
+name: "Groeschel",
+vorname: "Michael",
+studiengang: "UIB",
+email: "m.groeschel@hs-mannheim.de"
+};
+jsonObjektEinfuegen(tableTag.id,teilnehmercebit4);
