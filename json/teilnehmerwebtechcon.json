@@ -1,0 +1,24 @@
+// die teilnehmer der webtechcon erstellen und einfuegen
+var teilnehmerwebtechcon1 = {
+name: "Spies",
+vorname: "Marcell",
+studiengang: "IB",
+email: "m.spies@gmail.de"
+};
+jsonObjektEinfuegen(tableTag.id,teilnehmerwebtechcon1);
+
+var teilnehmerwebtechcon2 = {
+name: "Hoppe",
+vorname: "Johannes",
+studiengang: "UIB",
+email: "j.hoppe@gmx.de"
+};
+jsonObjektEinfuegen(tableTag.id,teilnehmerwebtechcon2);
+
+var teilnehmerwebtechcon3 = {
+name: "Hofmeister",
+vorname: "Johannes",
+studiengang: "UIB",
+email: "cessor@gmail.de"
+};
+jsonObjektEinfuegen(tableTag.id,teilnehmerwebtechcon3);

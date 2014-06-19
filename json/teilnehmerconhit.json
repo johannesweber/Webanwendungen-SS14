@@ -1,0 +1,16 @@
+// die teilnehmer der conhit erstellen und einfuegen
+var teilnehmerconhit1 = {
+name: "Schmuecker",
+vorname: "Paul",
+studiengang: "IMB",
+email: "p.schmuecker@hs-mannheim.de"
+};
+jsonObjektEinfuegen(tableTag.id,teilnehmerconhit1);
+
+var teilnehmerconhit2 = {
+name: "Felsenheimer",
+vorname: "Jan",
+studiengang: "IB",
+email: "j.felsenheimer@diebestebaendderwelt.de"
+};
+jsonObjektEinfuegen(tableTag.id,teilnehmerconhit2);

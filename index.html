@@ -8,7 +8,7 @@
 
     <script type="text/javascript" src="javascript/jquery-1.11.1.js"></script>
     <script type="text/javascript" src="javascript/index.js"></script>
-    <script type="text/javascript" src="javascript/details.js"></script>
+    <script type="text/javascript" src="javascript/detail.js"></script>
 
     <link rel="stylesheet"
           type="text/css"
@@ -16,8 +16,6 @@
     <link rel="stylesheet"
           type="text/css"
           href="css/index.css"/>
-
-
 
 </head>
 
@@ -45,7 +43,7 @@
 <div id="mitte">
     <p id="anmeldungtext">Hier könnt ihr euch für eine Messe eurer Wahl anmelden:</p>
 
-    <form id="formular" action = "php/anmeldung.php" onsubmit="return pruefen('formular')">
+    <form id="formular" action = "php/anmeldung.php" method="GET" onsubmit="return pruefen('formular')">
         <table id="formulartabelle">
             <tr>
                 <td><label for="vorname" id="vornamelabel">Vorname</label></td>
@@ -78,22 +76,21 @@
                 </td>
             </tr>
             <tr>
-                <td><label for="messe" id="messelabel">Messe</label></td>
+                <td><label for="cebitradio" id="messelabel">Messe</label></td>
                 <td>
                     <label>
-                        <input type = "radio" name="messe" value ="CeBIT" id="messe" checked="checked"/>
+                        <input type = "radio" name="messe" value ="CeBIT" id="cebitradio" checked="checked"/>
                     </label>CeBIT<br>
                     <label>
-                        <input type="radio" name="messe" value="ConhIT"/>
+                        <input type="radio" name="messe" value="ConhIT" id="conhitradio"/>
                     </label>ConhIT<br>
                     <label>
-                        <input type="radio" name="messe" value="WebTechCon"/>
+                        <input type="radio" name="messe" value="WebTechCon" id="webtechconradio"/>
                     </label>WebTechCon
                 </td>
             </tr>
             <tr>
-                <td><input type ="submit" name ="abschicken" id="abschicken" value = "Daten abschicken"
-                           onclick="sendRequest()"/></td>
+                <td><input type ="submit" name ="abschicken" id="abschicken" value = "Daten abschicken"/></td>
             </tr>
         </table>
     </form>
