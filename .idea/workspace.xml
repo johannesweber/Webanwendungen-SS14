@@ -23,37 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="anmeldung.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/anmeldung.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="930" selection-end="930" vertical-scroll-proportion="-21.875" vertical-offset="0" max-vertical-offset="615">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript/detail.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="196" column="29" selection-start="6501" selection-end="6501" vertical-scroll-proportion="0.0" vertical-offset="2516" max-vertical-offset="3330">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javascript/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="41" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.37961596" vertical-offset="928" max-vertical-offset="1605">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="getDetails.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/getDetails.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="53" selection-start="239" selection-end="239" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="420">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="anmeldung.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/anmeldung.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="80" selection-start="934" selection-end="934" vertical-scroll-proportion="0.75" vertical-offset="0" max-vertical-offset="640">
               <folding />
             </state>
           </provider>
@@ -75,23 +57,23 @@
         <option value="$PROJECT_DIR$/javascript/xmlHttpRequest.js" />
         <option value="$PROJECT_DIR$/json/kostenwebtechcon.json" />
         <option value="$PROJECT_DIR$/json/kosten.json" />
-        <option value="$PROJECT_DIR$/php/anmeldung.php" />
         <option value="$PROJECT_DIR$/txt/cebit.txt" />
         <option value="$PROJECT_DIR$/XMLHttpRequest.html" />
         <option value="$PROJECT_DIR$/txt/kosten.txt" />
         <option value="$PROJECT_DIR$/json/teilnehmercebit.json" />
         <option value="$PROJECT_DIR$/json/teilnehmerconhit.json" />
         <option value="$PROJECT_DIR$/json/teilnehmerwebtechcon.json" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/detail.css" />
-        <option value="$PROJECT_DIR$/php/anmeldung.php" />
         <option value="$PROJECT_DIR$/json/cebit.json" />
         <option value="$PROJECT_DIR$/php/getDetails.php" />
         <option value="$PROJECT_DIR$/json/conhit.json" />
         <option value="$PROJECT_DIR$/json/webtechcon.json" />
-        <option value="$PROJECT_DIR$/javascript/detail.js" />
         <option value="$PROJECT_DIR$/javascript/index.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/javascript/detail.js" />
+        <option value="$PROJECT_DIR$/php/anmeldung.php" />
+        <option value="$PROJECT_DIR$/php/anmeldung.php" />
       </list>
     </option>
   </component>
@@ -149,6 +131,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -239,7 +222,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,13 +271,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890624" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -314,6 +295,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -435,9 +417,41 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/txt/cebit.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="47" selection-start="1390" selection-end="1390" vertical-scroll-proportion="1.0137825" vertical-offset="13" max-vertical-offset="1560" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/conhit.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="653" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/kosten.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="1" selection-start="129" selection-end="129" vertical-scroll-proportion="0.091883615" vertical-offset="0" max-vertical-offset="653" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/webtechcon.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="1" selection-start="407" selection-end="407" vertical-scroll-proportion="0.5053599" vertical-offset="0" max-vertical-offset="653" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="41" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.37961596" vertical-offset="928" max-vertical-offset="1605" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/cebit.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="1" selection-start="555" selection-end="555" vertical-scroll-proportion="0.6891271" vertical-offset="0" max-vertical-offset="653" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="214" column="104" selection-start="7319" selection-end="7319" vertical-scroll-proportion="0.8192771" vertical-offset="2666" max-vertical-offset="3330">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/detail.html">
@@ -447,37 +461,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/txt/cebit.txt">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json/cebit.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="1" selection-start="555" selection-end="555" vertical-scroll-proportion="0.6891271" vertical-offset="0" max-vertical-offset="653">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json/conhit.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="653">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json/kosten.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="1" selection-start="129" selection-end="129" vertical-scroll-proportion="0.091883615" vertical-offset="0" max-vertical-offset="653">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json/webtechcon.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="1" selection-start="407" selection-end="407" vertical-scroll-proportion="0.5053599" vertical-offset="0" max-vertical-offset="653">
+        <state line="45" column="113" selection-start="1377" selection-end="1456" vertical-scroll-proportion="0.6015625" vertical-offset="290" max-vertical-offset="1560">
           <folding />
         </state>
       </provider>
@@ -491,21 +477,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/anmeldung.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="930" selection-end="930" vertical-scroll-proportion="-21.875" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/detail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="196" column="29" selection-start="6501" selection-end="6501" vertical-scroll-proportion="0.0" vertical-offset="2516" max-vertical-offset="3330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="41" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.37961596" vertical-offset="928" max-vertical-offset="1605">
+        <state line="32" column="80" selection-start="934" selection-end="934" vertical-scroll-proportion="0.75" vertical-offset="0" max-vertical-offset="640">
           <folding />
         </state>
       </provider>

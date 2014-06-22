@@ -212,6 +212,6 @@ function sendRequest(tabelleId) {
         }
     };
     //Hier wird angegeben welche HTTP-Methode und an welche PHP-Datei der Request gesendet wird
-    xmlhttp.open("GET","http://192.168.178.56/~Johannes/messeanmeldung/php/getDetails.php?messe="+tabelleId);
+    xmlhttp.open("GET","http://johannes-webers-macbook.local/~Johannes/messeanmeldung/php/getDetails.php?messe="+tabelleId);
     xmlhttp.send();
 }

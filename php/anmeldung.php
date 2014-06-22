@@ -30,7 +30,7 @@ if($_GET["messe"] == "WebTechCon"){
     fclose($webtechcon);
 }
 
-header("Location: http://192.168.178.56/~Johannes/messeanmeldung/");
+header("Location: http://johannes-webers-macbook.local/~Johannes/messeanmeldung/");
 exit;
 
 ?>
