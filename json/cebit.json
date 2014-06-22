@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Ent",
+        "vorname": "Thilo",
+        "studiengang":"IB",
+        "email": "t.ent@gmail.de"
+
+    },
+
+    {
+        "name": "Kraus",
+        "vorname": "Martina",
+        "studiengang":"IB",
+        "email": "m.kraus@hs-mannheim.de"
+    },
+
+    {
+        "name": "Smits",
+        "vorname": "Thomas",
+        "studiengang":"UIB",
+        "email": "t.smits@hs-mannheim.de"
+    },
+
+    {
+        "name": "Gröschel",
+        "vorname": "Michael",
+        "studiengang":"UIB",
+        "email": "m.groeschel@hs-mannheim.de"
+    }
+
+]

@@ -138,6 +138,7 @@ function cebitTabelleErstellen(){
         headTag.appendChild(textNode);
         tableTag.appendChild(headTag);
     }
+    sendRequest(tableTag.id);
 }
 
 /**
@@ -165,6 +166,7 @@ function conhitTabelleErstellen (){
         headTag.appendChild(textNode);
         tableTag.appendChild(headTag);
     }
+    sendRequest(tableTag.id);
 }
 
 /**
@@ -192,6 +194,7 @@ function webtechconTabelleErstellen() {
         headTag.appendChild(textNode);
         tableTag.appendChild(headTag);
     }
+    sendRequest(tableTag.id);
 }
 
 function sendRequest(tabelleId) {
@@ -209,6 +212,6 @@ function sendRequest(tabelleId) {
         }
     };
     //Hier wird angegeben welche HTTP-Methode und an welche PHP-Datei der Request gesendet wird
-    xmlhttp.open("GET","http://192.168.178.56/~Johannes/messeanmeldung/php/getDetails.php");
+    xmlhttp.open("GET","http://192.168.178.56/~Johannes/messeanmeldung/php/getDetails.php?messe="+tabelleId);
     xmlhttp.send();
 }

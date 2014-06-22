@@ -77,7 +77,7 @@ function istZahl(zahlen) {
  * @returns {boolean}
  */
 function istHandy(nummer){
-    var ergebnis = nummer.match("0[1-9]+[0-9]+");
+    var ergebnis = nummer.match("0[1-9]{1}[0-9]+");
     return ergebnis == nummer;
 }
 /**

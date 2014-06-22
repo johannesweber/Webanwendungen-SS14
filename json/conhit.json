@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Schmuecker",
+        "vorname": "Paul",
+        "studiengang":"IMB",
+        "email": "p.schmuecker@hs-mannheim.de"
+    },
+
+    {
+        "name": "Felsheimer",
+        "vorname": "Jan",
+        "studiengang":"IB",
+        "email": "j.Felsheimer@diebestebaendderwelt.de"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Hofmeister",
+        "vorname": "Johannes",
+        "studiengang":"UIB",
+        "email": "cessor@gmail.de"
+    },
+
+    {
+        "name": "Hoppe",
+        "vorname": "Johannes",
+        "studiengang":"UIB",
+        "email": "j.Hoppe@gmx.de"
+    },
+
+    {
+        "name": "Spies",
+        "vorname": "Marcel",
+        "studiengang":"IB",
+        "email": "m.Spiess@gmail.de"
+    }
+
+]
