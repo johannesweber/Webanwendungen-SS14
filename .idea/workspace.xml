@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85b0cdc5-0d9f-4bb9-8103-690be5af68d8" name="Default" comment="ENDE">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cebit.html" afterPath="$PROJECT_DIR$/cebit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conhit.html" afterPath="$PROJECT_DIR$/conhit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detail.html" afterPath="$PROJECT_DIR$/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtechcon.html" afterPath="$PROJECT_DIR$/webtechcon.html" />
+    <list default="true" id="85b0cdc5-0d9f-4bb9-8103-690be5af68d8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Messeanmeldung.iws" />
@@ -205,6 +199,11 @@
       <created>1403109622562</created>
       <updated>1403109622562</updated>
     </task>
+    <task id="LOCAL-00001" summary="ENDE">
+      <created>1403524655131</created>
+      <updated>1403524655131</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
