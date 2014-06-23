@@ -12,19 +12,19 @@ $handy = $_GET["handy"];
 
 $studiengang = $_GET["studiengang"];
 
-if($_GET["messe"] == "CeBIT"){
+if($_GET['messe'] == "CeBIT"){
     $cebit = fopen("../txt/cebit.txt", "a+");
     fwrite($cebit, $vorname." ".$nachname.", ".$matrikelnr.", ".$email.", ".$handy.", ".$studiengang." \r\n");
     fclose($cebit);
 }
 
-if($_GET["messe"] == "ConhIT"){
+if($_GET['messe'] == "ConhIT"){
     $conhit = fopen("../txt/conhit.txt", "a+");
     fwrite($conhit, $vorname." ".$nachname.", ".$matrikelnr.", ".$email.", ".$handy.", ".$studiengang." \r\n");
     fclose($conhit);
 }
 
-if($_GET["messe"] == "WebTechCon"){
+if($_GET['messe'] == "WebTechCon"){
     $webtechcon = fopen("../txt/webtechcon.txt", "a+");
     fwrite($webtechcon, $vorname." ".$nachname.", ".$matrikelnr.", ".$email.", ".$handy.", ".$studiengang." \r\n");
     fclose($webtechcon);
