@@ -5,9 +5,5 @@ In this Repository you can find the entire code from our project called "Messean
 
 In this project we had to develope a website. This website is developed with JavaScript, HTML, CSS an PHP.
 
-Furthermore we use a HTTPRequest to read JSON Data from a given File and write them into an table.
-
-After we fetched JSON Data we learned how to write JSON Data
-
-This should simulate how to read data from, for example, a database.
+Furthermore we read from a form, generated a JSON File from this data and wrote this JSON Data back in a table.
 
